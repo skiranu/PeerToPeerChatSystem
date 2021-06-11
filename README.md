@@ -1,0 +1,2 @@
+# PeerToPeerChatSystem
+The main goal of this project was to build a chat system to demonstrate the use of a central authority to complete the full ordering of messages while using a distributed system. This distributed system will employ the Chang - Roberts algorithm to elect one node as a leader. The leader is now the distributed system's central authority. All communication must now be routed through the leader. A new leader will be picked automatically if the current leader departs the distributed system (or dies unexpectedly).

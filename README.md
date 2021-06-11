@@ -18,18 +18,13 @@ Features:
 1. Activate the environment
 2. In the directory where chat.py is placed, run the command 'python3 chat.py' 
 
-## login to application
-Currently these users, password have the access to login 
-1. abhay, test
-2. susmith, test
-3. tharun, test
 
-## startnode dialog
+## Startnode dialog
 Choose a name for the node (use same one as the login) and set the IP address and port number. If it is the first node, there is no need to connect it to another node. For subsequent nodes, connect it to one of the existing nodes in the network. 
 
 To send encrypted messages, click the load key button and choose the keys.cfg file in the folder. The keys for abhay, susmith and tharun have been added in the keys.cfg file. To test new users, their names and keys also need to be added to the keys.cfg file.
 
-## chat window
+## Chat window
 After creating two or more nodes, click the 'select online users' to display the available users. Then the user can be selected and a message can be sent to that user. 
 If the key has been loaded, then the encrypted checkbox should be clicked before sending the message. 
 A broadcast message can be sent by sending a message without selecting any user. 

@@ -1,0 +1,6 @@
+cryptography
+configparser
+PyQt5
+Pymongo
+dnspython
+werkzeug
